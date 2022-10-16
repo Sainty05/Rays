@@ -1,0 +1,54 @@
+@media screen and (max-width: 1200px) {
+    .navigation {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .nav-left {
+        flex-direction: column;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .year-box {
+        top: 65px;
+        font-size: 11px;
+        display: flex;
+        right: unset;
+    }
+
+}
+
+@media screen and (max-width: 945px) {
+    .content-right {
+        display: none;
+    }
+
+    .content-left {
+        width: 100%;
+    }
+
+    .home-article {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .blogpost-meta {
+        display: unset;
+    }
+
+    .row {
+        display: unset;
+    }
+
+    .home-article {
+        flex-direction: unset;
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .form-box input,
+    textarea {
+        width: 100%;
+    }
+}
